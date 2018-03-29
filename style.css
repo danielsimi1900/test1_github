@@ -7,9 +7,10 @@ body{
 }
 /*====== header ====*/
 .header{
-    width: 100% auto;
+    width: 100%;
     height: 200px;
-    background: #d580ff;
+    background-image: url("thailand.jpg");
+    background-size: 100% 100%;
     padding-top: 5%;
 }
 .header h1{
@@ -20,32 +21,50 @@ body{
 
 /*====== navBar ======*/
 .navBar{
-    width: 100% auto;
-    height: 100px;
-    background: #a3c2c2;
+    width: 100%;
+    height: 70px;
+    background: #1a1a1a;
     margin: 0px;
     padding: 10px;
 }
-.navBar ul a{
+.navBar .navBarLinks ul a{
     text-decoration: none;
     float: left;
-    padding-left: 25px;
-    font-size: 40px;
+    padding-left: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
 }
-.navBar li{
+.navBar .navBarLinks li{
     display: inline;
 }
 .search1{
     float: right;
     margin: 0px;
+    float: right;
 }
 .search1 input{
     height: 39px;
+    margin-top: 15px;
     float: left;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
+    border-width: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #ffffff;
 }
 .search1 button{
-    height: 44px;
-    border: none;
+    height: 39px;
+    margin-right: 80px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    border:0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #ff5c33;
 }
 
 /*===== main and sideBar ====*/
@@ -60,7 +79,7 @@ body{
 .column{
     width: 20%;
     height:100%;
-    background: yellow;
+    background: #4d4d4d;
     margin: 0px;
     padding: 0px;
     float: left;
@@ -68,7 +87,7 @@ body{
 .column1{
     width: 80%;
     height:100%;
-    background: blue;
+    background: #999999;
     margin:0px;
     padding: 0px;
     float: left;
@@ -93,6 +112,6 @@ body{
 .footer{
     width: 100%;
     height: 100px;
-    background: black;
+    background: silver;
     float: left;
 }
