@@ -9,7 +9,7 @@ body{
 .header{
     width: 100%;
     height: 200px;
-    background-image: url("thailand.jpg");
+    background-image: url("thai-temple.jpg");
     background-size: 100% 100%;
     padding-top: 5%;
 }
@@ -25,18 +25,24 @@ body{
     height: 70px;
     background: #1a1a1a;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
 }
+
 .navBar .navBarLinks ul a{
     text-decoration: none;
     float: left;
-    padding-left: 40px;
-    margin-top: 10px;
+    padding: 0px 40px 0px 40px;
+    margin: 0px;
     font-size: 30px;
     color: white;
+    height: 70px;
 }
 .navBar .navBarLinks li{
     display: inline;
+}
+.navBar .navBarLinks ul a:hover{
+    background: grey;
+    color: black;
 }
 .search1{
     float: right;
@@ -69,7 +75,7 @@ body{
 
 /*===== main and sideBar ====*/
 
-.row{
+.sideBar{
     width: 100%;
     height: 800px;
     background: grey;
@@ -84,6 +90,15 @@ body{
     padding: 0px;
     float: left;
 }
+.column ul{
+    font-size: 30px;
+    color: white;
+}
+.column ul li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
 .column1{
     width: 80%;
     height:100%;
@@ -92,7 +107,7 @@ body{
     padding: 0px;
     float: left;
 }
-.row:after{
+.sideBar:after{
     content: " ";
     display: table;
     clear: both;
@@ -112,6 +127,11 @@ body{
 .footer{
     width: 100%;
     height: 100px;
-    background: silver;
+    background: #0d0d0d;
     float: left;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
