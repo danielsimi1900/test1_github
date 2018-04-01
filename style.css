@@ -92,12 +92,10 @@ body{
 }
 .column ul{
     font-size: 30px;
-    color: white;
+    text-align: center;
 }
 .column ul li a{
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
+    font-size: 30px;text-decoration: none;
 }
 .column1{
     width: 80%;

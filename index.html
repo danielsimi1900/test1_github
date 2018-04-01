@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <title>test for git hub</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
     </head>
     <body>
 
@@ -30,36 +34,37 @@
             </div>
             <div class="sideBar">
                 <div class="column">
-                    <ul>
-                        <li>Africa
+
+                    <ul id="countries">
+                        <li><a href="#">Africa</a>
                             <ul>
                                 <li><a href="#">city_1</a></li>
                                 <li><a href="#">city_2</a></li>
                                 <li><a href="#">city_3</a></li>
                             </ul>
                         </li>
-                        <li>Asia
+                        <li><a href="#">Asia</a>
                             <ul>
                                 <li><a href="#">city_1</a></li>
                                 <li><a href="#">city_2</a></li>
                                 <li><a href="#">city_3</a></li>
                             </ul>
                         </li>
-                        <li>Australia
+                        <li><a href="#">Australia</a>
                             <ul>
                                 <li><a href="#">city_1</a></li>
                                 <li><a href="#">city_2</a></li>
                                 <li><a href="#">city_3</a></li>
                             </ul>
                         </li>
-                        <li>Europe
+                        <li><a href="#">Europe</a>
                             <ul>
                                 <li><a href="#">city_1</a></li>
                                 <li><a href="#">city_2</a></li>
                                 <li><a href="#">city_3</a></li>
                             </ul>
                         </li>
-                        <li>United States
+                        <li><a href="#">United States</a>
                             <ul>
                                 <li><a href="#">city_1</a></li>
                                 <li><a href="#">city_2</a></li>
@@ -75,10 +80,20 @@
 
             </div>
             <div class="footer">
-                <p>DSI &copy; all rights reserved</p>
+                <p>&copy; Made by DSI</p>
                 <p>31 March 2018</p>
 
             </div>
+
+            <script src="jquery-3.js"></script>
+            <script src="jquery-ui/jquery-ui.js"></script>
+            <script>
+            $(document).ready(function() {
+                $("#countries").menu({highlight: true});
+
+            });
+
+            </script>
 
     </body>
 </html>
