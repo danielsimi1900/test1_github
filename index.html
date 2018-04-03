@@ -23,7 +23,6 @@
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
-
                 </div>
 
                 <div class="search1">
@@ -87,9 +86,11 @@
 
             <script src="jquery-3.js"></script>
             <script src="jquery-ui/jquery-ui.js"></script>
+
             <script>
             $(document).ready(function() {
                 $("#countries").menu({highlight: true});
+                $("#countries > li").css({"background":"aqua"});
 
             });
 
